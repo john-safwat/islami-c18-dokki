@@ -22,7 +22,6 @@ class MyApp extends StatelessWidget {
           return SuraDetails(sura: sura);
         },
       },
-
       initialRoute: IntroScreen.routeName,
       debugShowCheckedModeBanner: false,
     );
