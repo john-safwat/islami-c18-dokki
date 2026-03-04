@@ -2,7 +2,7 @@ import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
 import 'package:islami_c18_dokki/theme/colors.dart';
 import 'package:islami_c18_dokki/theme/text_styles.dart';
-import 'package:islami_c18_dokki/ui/home/tabs/home_tab/home_tab.dart' show HomeTab;
+import 'package:islami_c18_dokki/ui/home/tabs/quran_tab/quran_tab.dart';
 
 class HomeScreen extends StatefulWidget {
   static const String routeName = "homeScreen";
@@ -17,7 +17,7 @@ class _HomeScreenState extends State<HomeScreen> {
   int selectedIndex = 0;
 
   List<Widget> tabs = [
-    HomeTab(),
+    QuranTab(),
     Container(color: Colors.yellow),
     Container(color: Colors.black),
     Container(color: Colors.blue),

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:islami_c18_dokki/theme/text_styles.dart';
-import 'package:islami_c18_dokki/ui/home/tabs/home_tab/models/sura.dart';
+import 'package:islami_c18_dokki/ui/home/tabs/quran_tab/models/sura.dart';
 import 'package:islami_c18_dokki/ui/sura_details/sura_details.dart';
 
 class SuraItem extends StatelessWidget {

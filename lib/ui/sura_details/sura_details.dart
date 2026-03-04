@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:islami_c18_dokki/theme/colors.dart';
 import 'package:islami_c18_dokki/theme/text_styles.dart';
-import 'package:islami_c18_dokki/ui/home/tabs/home_tab/models/sura.dart';
+import 'package:islami_c18_dokki/ui/home/tabs/quran_tab/models/sura.dart';
 
 class SuraDetails extends StatefulWidget {
   static const String routeName = "suraDetails";
