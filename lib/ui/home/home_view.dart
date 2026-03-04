@@ -18,7 +18,7 @@ class _HomeScreenState extends State<HomeScreen> {
   int selectedIndex = 0;
 
   List<Widget> tabs = [
-    QuranTab() ,
+    QuranTab(),
     HadethTab(),
     Container(color: Colors.black),
     Container(color: Colors.blue),
