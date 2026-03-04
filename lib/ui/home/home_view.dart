@@ -2,6 +2,7 @@ import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
 import 'package:islami_c18_dokki/theme/colors.dart';
 import 'package:islami_c18_dokki/theme/text_styles.dart';
+import 'package:islami_c18_dokki/ui/home/tabs/hadeth_tab/hadeth_tab.dart';
 import 'package:islami_c18_dokki/ui/home/tabs/home_tab/home_tab.dart' show HomeTab;
 
 class HomeScreen extends StatefulWidget {
@@ -18,7 +19,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
   List<Widget> tabs = [
     HomeTab(),
-    Container(color: Colors.yellow),
+    HadethTab(),
     Container(color: Colors.black),
     Container(color: Colors.blue),
     Container(color: Colors.green),
