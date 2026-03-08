@@ -66,7 +66,7 @@ class _SuraDetailsState extends State<SuraDetails> {
                   child: CircularProgressIndicator(
                     color: AppColors.gold,
                   ),
-                ): Padding(
+                ): SingleChildScrollView(
                   padding: const EdgeInsets.all(16.0),
                   child: Text(
                     suraContent??"",
